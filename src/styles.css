@@ -4,3 +4,15 @@
 @tailwind components;
 
 @tailwind utilities;
+
+/**
+* apply directive for resuable card and badge
+*/
+
+.card {
+  @apply bg-white rounded overflow-hidden shadow-md relative;
+}
+
+.badge {
+  @apply bg-secondary-100 text-secondary-200 rounded-full p-2 text-xs uppercase font-bold absolute top-0 mt-2 ml-2;
+}
